@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel García Márquez - A Literary Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Gabriel García Márquez</h1>
+            <p class="hero-subtitle">Master of Magical Realism</p>
+            <div class="hero-years">1927 - 2014</div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section class="biography">
+        <div class="container">
+            <h2 class="section-title">The Life of a Literary Giant</h2>
+            <div class="bio-grid">
+                <div class="bio-text">
+                    <p>Born in Aracataca, Colombia, Gabriel García Márquez became one of the most significant authors of the 20th century. His unique blend of reality and fantasy, known as magical realism, captivated readers worldwide and earned him the Nobel Prize in Literature in 1982.</p>
+                    <p>From his humble beginnings in a small Colombian town to becoming a global literary icon, García Márquez's journey was as extraordinary as the stories he told.</p>
+                </div>
+                <div class="bio-visual">
+                    <div class="timeline-preview">
+                        <div class="timeline-dot active"></div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Timeline -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Life Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-year="1927">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Birth in Aracataca</h3>
+                        <p>Born on March 6 in the small town of Aracataca, Colombia, to Gabriel Eligio García and Luisa Santiaga Márquez.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1947">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>First Story Published</h3>
+                        <p>Published his first short story "The Third Resignation" in the newspaper El Espectador.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1967">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>One Hundred Years of Solitude</h3>
+                        <p>Published his masterpiece, which would become one of the most important novels of the 20th century.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1982">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Nobel Prize in Literature</h3>
+                        <p>Awarded the Nobel Prize "for his novels and short stories, in which the fantastic and the realistic are combined."</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2014">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Literary Legacy</h3>
+                        <p>Passed away in Mexico City, leaving behind an unparalleled literary legacy that continues to inspire.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Major Works -->
+    <section class="works-section">
+        <div class="container">
+            <h2 class="section-title">Literary Masterpieces</h2>
+            <div class="works-grid">
+                <div class="work-card">
+                    <div class="work-year">1967</div>
+                    <h3>One Hundred Years of Solitude</h3>
+                    <p>The epic tale of the Buendía family and the mythical town of Macondo, considered his greatest work.</p>
+                </div>
+                <div class="work-card">
+                    <div class="work-year">1985</div>
+                    <h3>Love in the Time of Cholera</h3>
+                    <p>A sweeping love story that spans over fifty years, exploring themes of love, aging, and death.</p>
+                </div>
+                <div class="work-card">
+                    <div class="work-year">1981</div>
+                    <h3>Chronicle of a Death Foretold</h3>
+                    <p>A haunting novella that reconstructs the events leading to a murder in a small Colombian town.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Chart -->
+    <section class="achievements-section">
+        <div class="container">
+            <h2 class="section-title">Global Impact</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <canvas id="languagesChart" width="300" height="300"></canvas>
+                    <h3>Translated into 40+ Languages</h3>
+                </div>
+                <div class="achievement-card">
+                    <canvas id="salesChart" width="300" height="200"></canvas>
+                    <h3>50+ Million Copies Sold</h3>
+                </div>
+                <div class="achievement-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Nobel Prize</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Major Awards</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Years of Influence</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Journey Across Continents</h2>
+            <div class="map-container">
+                <svg id="worldMap" viewBox="0 0 1000 500">
+                    <!-- Simplified world map paths -->
+                    <path d="M150,200 L200,180 L250,190 L300,200 L350,210 L400,200 L450,190 L500,200 L550,210 L600,200 L650,190 L700,200 L750,210 L800,200 L850,190" stroke="#2ca7e0" stroke-width="2" fill="none" opacity="0.3"/>
+                    
+                    <!-- Colombia -->
+                    <circle id="colombia" cx="250" cy="300" r="8" fill="#00c7be" class="map-point">
+                        <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+                    </circle>
+                    
+                    <!-- Mexico -->
+                    <circle id="mexico" cx="180" cy="250" r="8" fill="#2ca7e0" class="map-point">
+                        <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+                    </circle>
+                    
+                    <!-- Sweden -->
+                    <circle id="sweden" cx="520" cy="150" r="8" fill="#ffb547" class="map-point">
+                        <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite" begin="1s"/>
+                    </circle>
+                </svg>
+                
+                <div class="map-tooltips">
+                    <div id="tooltip-colombia" class="map-tooltip">
+                        <h4>Colombia</h4>
+                        <p>Birthplace - Aracataca, 1927</p>
+                    </div>
+                    <div id="tooltip-mexico" class="map-tooltip">
+                        <h4>Mexico</h4>
+                        <p>Home for many years, where he wrote his greatest works</p>
+                    </div>
+                    <div id="tooltip-sweden" class="map-tooltip">
+                        <h4>Sweden</h4>
+                        <p>Nobel Prize in Literature, 1982</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Quote -->
+    <section class="quote-section">
+        <div class="container">
+            <div class="quote-container">
+                <div class="quote-mark">"</div>
+                <p id="animatedQuote" class="quote-text"></p>
+                <div class="quote-author">— Gabriel García Márquez</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>A tribute to the master of magical realism</p>
+            <p>Gabriel García Márquez (1927-2014)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
